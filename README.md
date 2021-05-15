@@ -8,7 +8,7 @@
 <b> Run Command : </b>
  <p> php artisan laravel-app:test-command</p>
 
-<b> Run Queueu : </b>
+<b> Run Queue : </b>
 <ul>
     <li> php artisan queue:work job_users </li>
     <li >php artisan queue:work job_admins </li> 
