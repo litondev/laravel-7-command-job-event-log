@@ -1,4 +1,4 @@
-<h1>Laravel-7-Command-Job-Event-Log</h1>
+<h1>Laravel Command Job Event Queue And Log</h1>
 
 <b> Purpose : </b>
  <p>
