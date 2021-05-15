@@ -1,6 +1,15 @@
-# Run Command
-php artisan laravel-app:test-command
+<h1>Laravel-7-Command-Job-Event-Log</h1>
 
-# Run Queue
-php artisan queue:work job_users
-php artisan queue:work job_admins
+<b> Purpose : </b>
+ <p>
+    I make this repository to learn command job event log in laravel
+ </p>
+    
+<b> Run Command : </b>
+ <p> php artisan laravel-app:test-command</p>
+
+<b> Run Queueu : </b>
+<ul>
+    <li> php artisan queue:work job_users </li>
+    <li >php artisan queue:work job_admins </li> 
+</ul>
