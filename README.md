@@ -17,7 +17,7 @@
 <b>Using Supervisor For Production</b>
 <ul>
     <li>http://supervisord.org/</li>
-    <li>
+    <li> Example Config : 
     <code>
     <pre>
     [program:email-queue]
