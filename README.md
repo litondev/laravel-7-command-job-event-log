@@ -13,3 +13,23 @@
     <li> php artisan queue:work job_users </li>
     <li >php artisan queue:work job_admins </li> 
 </ul>
+
+<b>Using Supervisor For Production</b>
+<ul>
+    <li>http://supervisord.org/</li>
+    <li>
+    <code>
+    <pre>
+    [program:email-queue]
+    process_name=%(program_name)s_%(process_num)02d
+    command=/usr/bin/php /home/user/Project/ispm/api/artisan queue:work
+    autostart=true
+    autorestart=true
+    user=user
+    numprocs=1
+    redirect_stderr=true
+    stdout_logfile=/home/user/Project/ispm/api/storage/logs/supervisord.log
+    </pre>
+    </code>
+    </li>
+</ul>
